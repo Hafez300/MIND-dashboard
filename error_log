@@ -1,0 +1,101 @@
+[10-Mar-2024 13:41:20 UTC] PHP Warning:  include(config.php): Failed to open stream: No such file or directory in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 13
+[10-Mar-2024 13:41:20 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 13
+[10-Mar-2024 13:41:20 UTC] PHP Warning:  Undefined variable $conn in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 20
+[10-Mar-2024 13:41:20 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php:20
+Stack trace:
+#0 /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php(20): mysqli_real_escape_string(NULL, '')
+#1 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 20
+[10-Mar-2024 13:42:52 UTC] PHP Warning:  include(config.php): Failed to open stream: No such file or directory in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 13
+[10-Mar-2024 13:42:52 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 13
+[10-Mar-2024 13:42:52 UTC] PHP Warning:  Undefined variable $conn in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 20
+[10-Mar-2024 13:42:52 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php:20
+Stack trace:
+#0 /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php(20): mysqli_real_escape_string(NULL, '')
+#1 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 20
+[10-Mar-2024 13:43:11 UTC] PHP Warning:  include(config.php): Failed to open stream: No such file or directory in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 13
+[10-Mar-2024 13:43:11 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 13
+[10-Mar-2024 13:43:11 UTC] PHP Warning:  Undefined variable $conn in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 20
+[10-Mar-2024 13:43:11 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_real_escape_string(): Argument #1 ($mysql) must be of type mysqli, null given in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php:20
+Stack trace:
+#0 /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php(20): mysqli_real_escape_string(NULL, 'admin')
+#1 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 20
+[10-Mar-2024 15:47:57 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown character set: 'utf8mb4_bin' in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php:14
+Stack trace:
+#0 /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php(14): mysqli_query(Object(mysqli), 'SET CHARACTER S...')
+#1 /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php(13): include('/home/ihoneyher...')
+#2 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php on line 14
+[10-Mar-2024 15:59:04 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown character set: 'utf8mb4_bin' in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php:14
+Stack trace:
+#0 /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php(14): mysqli_query(Object(mysqli), 'SET CHARACTER S...')
+#1 /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php(13): include('/home/ihoneyher...')
+#2 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php on line 14
+[10-Mar-2024 16:32:20 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown character set: 'utf8mb4_bin' in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php:14
+Stack trace:
+#0 /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php(14): mysqli_query(Object(mysqli), 'SET CHARACTER S...')
+#1 /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php(13): include('/home/ihoneyher...')
+#2 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php on line 14
+[10-Mar-2024 16:33:35 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown character set: 'utf8mb4_bin' in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php:14
+Stack trace:
+#0 /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php(14): mysqli_query(Object(mysqli), 'SET CHARACTER S...')
+#1 /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php(13): include('/home/ihoneyher...')
+#2 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php on line 14
+[10-Mar-2024 16:33:59 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown character set: 'utf8mb4_bin' in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php:14
+Stack trace:
+#0 /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php(14): mysqli_query(Object(mysqli), 'SET CHARACTER S...')
+#1 /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php(13): include('/home/ihoneyher...')
+#2 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php on line 14
+[10-Mar-2024 16:34:11 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown character set: 'utf8mb4_bin' in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php:14
+Stack trace:
+#0 /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php(14): mysqli_query(Object(mysqli), 'SET CHARACTER S...')
+#1 /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php(13): include('/home/ihoneyher...')
+#2 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php on line 14
+[10-Mar-2024 16:35:10 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown character set: 'utf8mb4_bin' in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php:14
+Stack trace:
+#0 /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php(14): mysqli_query(Object(mysqli), 'SET CHARACTER S...')
+#1 /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php(13): include('/home/ihoneyher...')
+#2 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php on line 14
+[10-Mar-2024 16:35:14 Africa/Cairo] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown character set: 'utf8mb4_bin' in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php:14
+Stack trace:
+#0 /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php(14): mysqli_query(Object(mysqli), 'SET CHARACTER S...')
+#1 /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php(13): include('/home/ihoneyher...')
+#2 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/config.php on line 14
+[11-Mar-2024 11:55:50 Africa/Cairo] PHP Warning:  Undefined variable $mysqli in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 11:55:50 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 11:57:19 Africa/Cairo] PHP Warning:  Undefined variable $mysqli in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 11:57:19 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 11:58:22 Africa/Cairo] PHP Warning:  Undefined variable $mysqli in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 11:58:22 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 12:00:21 Africa/Cairo] PHP Warning:  Undefined variable $mysqli in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 12:00:21 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 12:00:25 Africa/Cairo] PHP Warning:  Undefined variable $mysqli in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 12:00:25 Africa/Cairo] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 12:01:00 Africa/Cairo] PHP Fatal error:  Call to a member function query() on null in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 12:01:06 Africa/Cairo] PHP Fatal error:  Call to a member function query() on null in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 12:01:10 Africa/Cairo] PHP Fatal error:  Call to a member function query() on null in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30
+[11-Mar-2024 12:03:55 Africa/Cairo] PHP Fatal error:  Call to a member function query() on null in /home/ihoneyherb/public_html/admin.ihoneyherb.com/login.php on line 30

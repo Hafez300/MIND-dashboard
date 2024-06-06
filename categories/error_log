@@ -1,0 +1,4 @@
+[11-Mar-2024 13:13:13 Africa/Cairo] PHP Warning:  move_uploaded_file(categories/icons/): failed to open stream: No such file or directory in /home/ihoneyherb/public_html/admin.ihoneyherb.com/categories/add.php on line 46
+[11-Mar-2024 13:13:13 Africa/Cairo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php4gqatt' to 'categories/icons/' in /home/ihoneyherb/public_html/admin.ihoneyherb.com/categories/add.php on line 46
+[11-Mar-2024 13:14:49 Africa/Cairo] PHP Warning:  move_uploaded_file(): The second argument to copy() function cannot be a directory in /home/ihoneyherb/public_html/admin.ihoneyherb.com/categories/add.php on line 46
+[11-Mar-2024 13:14:49 Africa/Cairo] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpRH9whF' to 'icons/' in /home/ihoneyherb/public_html/admin.ihoneyherb.com/categories/add.php on line 46
